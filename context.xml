@@ -16,7 +16,7 @@
   limitations under the License.
 -->
 <!-- The contents of this file will be loaded for each web application -->
-<Context path:"/diagnostic" dockBase="/usr/loca/tomcat/webapps/diagnostic.war">
+<Context path:"/diagnostics" dockBase="/usr/loca/tomcat/webapps/diagnostics.war">
 
     <!-- Default set of monitored resources. If one of these changes, the    -->
     <!-- web application will be reloaded.                                   -->
