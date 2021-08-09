@@ -151,6 +151,8 @@
 
       <Host name="localhost"  appBase="webapps"
             unpackWARs="true" autoDeploy="true">
+        <Context path:"/diagnostics" dockBase="/usr/loca/tomcat/webapps/diagnostics.war">
+        </Context>
 
         <!-- SingleSignOn valve, share authentication between web applications
              Documentation at: /docs/config/valve.html -->
